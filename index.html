@@ -12,9 +12,18 @@
       
       function gerarFraseMotivacional() {
         const frases = [
-        "nome1","nome2"
-      ]
-      const numeroAleatorio =0
+    "Acredite em você e no seu potencial.",
+    "Grandes conquistas começam com pequenos passos.",
+    "O sucesso é a soma de pequenos esforços repetidos todos os dias.",
+    "Não espere resultados diferentes se você continua fazendo as mesmas coisas.",
+    "A persistência é o caminho para transformar sonhos em realidade.",
+    "Cada desafio é uma oportunidade para crescer e aprender.",
+    "O importante não é ser perfeito, mas continuar evoluindo.",
+    "A disciplina supera a motivação quando a motivação acaba.",
+    "Seu futuro é construído pelas escolhas que você faz hoje.",
+    "Nunca desista de algo que pode tornar sua vida melhor."
+]
+      const numeroAleatorio = Math.floor(Math.random() * 10);
       const frase = frases[numeroAleatorio]
       
       document.getElementById('frase').innerHTML = frase
